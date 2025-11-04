@@ -16,3 +16,7 @@ app.post('/login' , (req , res)=>{
     res.send('hightmthetode')
 })
 
+
+app.get('/home' , (req , res)=>{
+    res.send('go to your home page')
+})
